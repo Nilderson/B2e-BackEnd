@@ -1,0 +1,231 @@
+{
+	"info": {
+		"_postman_id": "a36f0860-a2bb-4354-8458-621fc780f2a7",
+		"name": "Products - MicroService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40649769"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Add User",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\": \"string\",\r\n  \"senha\": \"string\",\r\n  \"dataCreate\": \"2025-03-26T02:33:33.676Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7157/api/auth/register",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7157",
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \r\n  \"login\": \"Teste1\",\r\n  \"senha\": \"1234\"\r\n  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7157/api/auth/login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7157",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Produtos List",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGUxIiwianRpIjoiZmE2NzhlOTAtYWIzNS00Y2UwLWExNzktM2JiMDMyMDgzMTRlIiwiZXhwIjoxNzQyOTU5MDMyLCJpc3MiOiJwcm9kdXRvc2FwaSIsImF1ZCI6InByb2R1dG9zYXBpIn0.ZsN3OXMK6RngusAoXnAF_5727apT8LyAcdXUUasVkZo",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7272/api/products",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7272",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add Produto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGUxIiwianRpIjoiZmE2NzhlOTAtYWIzNS00Y2UwLWExNzktM2JiMDMyMDgzMTRlIiwiZXhwIjoxNzQyOTU5MDMyLCJpc3MiOiJwcm9kdXRvc2FwaSIsImF1ZCI6InByb2R1dG9zYXBpIn0.ZsN3OXMK6RngusAoXnAF_5727apT8LyAcdXUUasVkZo",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Produto 5\",\r\n  \"amount\": 100,\r\n  \"dataCreate\": \"2025-03-26T02:16:07.316Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7272/api/products",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7272",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGUxIiwianRpIjoiZmE2NzhlOTAtYWIzNS00Y2UwLWExNzktM2JiMDMyMDgzMTRlIiwiZXhwIjoxNzQyOTU5MDMyLCJpc3MiOiJwcm9kdXRvc2FwaSIsImF1ZCI6InByb2R1dG9zYXBpIn0.ZsN3OXMK6RngusAoXnAF_5727apT8LyAcdXUUasVkZo",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7272/api/products/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7272",
+							"path": [
+								"api",
+								"products",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete produto",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGUxIiwianRpIjoiZmE2NzhlOTAtYWIzNS00Y2UwLWExNzktM2JiMDMyMDgzMTRlIiwiZXhwIjoxNzQyOTU5MDMyLCJpc3MiOiJwcm9kdXRvc2FwaSIsImF1ZCI6InByb2R1dG9zYXBpIn0.ZsN3OXMK6RngusAoXnAF_5727apT8LyAcdXUUasVkZo",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7272/api/products/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7272",
+							"path": [
+								"api",
+								"products",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Put Produtos",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdGUxIiwianRpIjoiZmE2NzhlOTAtYWIzNS00Y2UwLWExNzktM2JiMDMyMDgzMTRlIiwiZXhwIjoxNzQyOTU5MDMyLCJpc3MiOiJwcm9kdXRvc2FwaSIsImF1ZCI6InByb2R1dG9zYXBpIn0.ZsN3OXMK6RngusAoXnAF_5727apT8LyAcdXUUasVkZo",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"id\" : 2,\r\n  \"name\": \"Produto 4\",\r\n  \"amount\": 200\r\n  \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7272/api/products/2",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7272",
+							"path": [
+								"api",
+								"products",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,17 @@
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\bin\Debug\net8.0\Produtos.Infra.deps.json
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\bin\Debug\net8.0\Produtos.Infra.runtimeconfig.json
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\bin\Debug\net8.0\Produtos.Infra.dll
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\bin\Debug\net8.0\Produtos.Infra.pdb
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\bin\Debug\net8.0\Produtos.Core.dll
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\bin\Debug\net8.0\Produtos.Core.pdb
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\Produtos.Infra.csproj.AssemblyReference.cache
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\Produtos.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\Produtos.Infra.AssemblyInfoInputs.cache
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\Produtos.Infra.AssemblyInfo.cs
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\Produtos.Infra.csproj.CoreCompileInputs.cache
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\Produtos.3EE0A1DC.Up2Date
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\Produtos.Infra.dll
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\refint\Produtos.Infra.dll
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\Produtos.Infra.pdb
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\Produtos.Infra.genruntimeconfig.cache
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Infra\obj\Debug\net8.0\ref\Produtos.Infra.dll

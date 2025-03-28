@@ -1,0 +1,12 @@
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\bin\Debug\net8.0\Produtos.Core.deps.json
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\bin\Debug\net8.0\Produtos.Core.dll
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\bin\Debug\net8.0\Produtos.Core.pdb
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\obj\Debug\net8.0\Produtos.Core.csproj.AssemblyReference.cache
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\obj\Debug\net8.0\Produtos.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\obj\Debug\net8.0\Produtos.Core.AssemblyInfoInputs.cache
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\obj\Debug\net8.0\Produtos.Core.AssemblyInfo.cs
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\obj\Debug\net8.0\Produtos.Core.csproj.CoreCompileInputs.cache
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\obj\Debug\net8.0\Produtos.Core.dll
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\obj\Debug\net8.0\refint\Produtos.Core.dll
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\obj\Debug\net8.0\Produtos.Core.pdb
+C:\Users\nappc\source\repos\Produtos.Solution\Produtos.Core\obj\Debug\net8.0\ref\Produtos.Core.dll

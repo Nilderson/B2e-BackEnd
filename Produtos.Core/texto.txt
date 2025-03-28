@@ -1,0 +1,23 @@
+﻿✅ Entities no Core
+
+O Core deve conter apenas regras de negócio e ser independente de infraestrutura.
+✔️ As Entities representam o domínio da aplicação.
+✔️ Elas devem ficar isoladas para não dependerem de frameworks externos (como EF Core).
+
+✅ Interfaces dos Repositórios no Core
+
+O Core deve definir contratos, mas não implementar detalhes.
+✔️ As Interfaces (IProdutoRepository, IUsuarioRepository) garantem que qualquer implementação futura siga o contrato definido.
+✔️ Isso permite trocar a implementação do banco de dados sem mudar o Core.
+
+✅ Repositórios na Infra
+
+O Infra é responsável por persistência de dados e integração com tecnologias externas.
+✔️ A implementação (ProdutoRepository, UsuarioRepository) usa Entity Framework para acessar o SQL Server.
+✔️ Como o Core não depende do EF, você pode trocar para outro banco sem impactar a lógica de negócio.
+
+
+📌 Vantagens Dessa Abordagem
+1️⃣ Independência do Core → Pode trocar o banco sem alterar regras de negócio.
+2️⃣ Testabilidade → Podemos mockar os repositórios para testar os serviços sem acessar o banco.
+3️⃣ Facilidade de manutenção → Separação clara entre lógica de domínio e persistência.
