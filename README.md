@@ -31,19 +31,21 @@ Atualize a ConnectionStrings nas duas APIs nos dois arquivos appsettings.json
   "DefaultConnection": "Server=localhost;Database=ProdutosDB;User Id=sa;Password=SuaSenha;TrustServerCertificate=True;"
 }
 
+
 3️⃣ Rodar a Aplicação
 Configure o projeto para Rodar mais de um projeto Auth.Api e Products.Api
 Ao rodar pegue as Urls para configurar a comunicação com do Front
 
 
+
 📦 Endpoints Principais
-Método	        Endpoint	                Descrição
-POST	        /api/auth/login	            Autenticação e geração de token
-GET	            /api/produtos	            Lista produtos
-POST	        /api/produtos	            Adiciona um novo produto
-PUT	            /api/produtos/{id}	        Edita um produto
-DELETE	        /api/produtos/{id}	        Remove um produto
-GET	            /api/produtos/export	    Exporta produtos para Excel
+Método	        	Endpoint	                Descrição
+POST	        	/api/auth/login	            	Autenticação e geração de token
+GET	            	/api/produtos	            	Lista produtos
+POST	        	/api/produtos	            	Adiciona um novo produto
+PUT	            	/api/produtos/{id}	        Edita um produto
+DELETE	        	/api/produtos/{id}	        Remove um produto
+GET	            	/api/produtos/export	    	Exporta produtos para Excel
 
 ✅ Testando com Postman ou Frontend
 1️⃣ Autentique-se (POST /api/auth/login) e copie o token.
@@ -61,8 +63,8 @@ INSERT INTO [dbo].[Users]
            ([Login]
            ,[Senha]
            ,[DataCreate])
-     VALUES
-           ('Admin', '$2a$11$uxj0A3dymnKIKqg6Hz4b6OcOFbYEgsk3iXh9c6j/vQEDnQH91BeMq','2025-03-26 01:12:16.8315341')
+VALUES('Admin', '$2a$11$uxj0A3dymnKIKqg6Hz4b6OcOFbYEgsk3iXh9c6j/vQEDnQH91BeMq','2025-03-26 01:12:16.8315341')
+
 GO
 
 User Admin
