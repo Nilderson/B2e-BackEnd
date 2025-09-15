@@ -1,4 +1,4 @@
-# B2e - Backend (Microservices with .NET Core 8)
+# Backend (Microservices with .NET Core 8)
 
 Este projeto é um backend baseado em **.NET Core 8** utilizando arquitetura de **microserviços**. Ele gerencia autenticação, produtos e permite a exportação de produtos para um arquivo Excel.
 
